@@ -1,5 +1,7 @@
 set nocompatible
 
+set termguicolors
+
 set number
 
 set mouse=v
@@ -55,3 +57,12 @@ filetype plugin on
 filetype indent on
 
 syntax on
+
+call plug#begin("~/.config/nvim/site/autoload")
+    Plug 'drewtempelmeyer/palenight.vim'
+call plug#end()
+
+set background=dark
+
+colorscheme palenight
+
