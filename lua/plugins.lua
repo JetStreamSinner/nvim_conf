@@ -9,5 +9,3 @@ Plug 'williamboman/mason-lspconfig.nvim'
 Plug 'neovim/nvim-lspconfig'
 vim.call('plug#end')
 
-vim.cmd('PlugInstall')
-vim.cmd('q')
